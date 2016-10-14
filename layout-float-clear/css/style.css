@@ -75,9 +75,10 @@ https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-classes -- */
 
 
    
-/* -- Make this CSS rule reusable.
-      You can add this class to any element 
-      inside your webpage that needs clearing float. -- */
+/* -- 
+Make this CSS rule reusable.
+You can add this class to any element 
+inside your HTML content that needs clearing float. -- */
 .clearfix::after {
     content: "";
     display: block;
