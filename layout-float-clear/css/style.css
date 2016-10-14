@@ -1,0 +1,80 @@
+/*
+COLOR SCHEME:
+    #78C0F9 - baby blue
+    #FFDDCE - pale brown
+    #FFFFFF - white
+    #FFDBE6 - pale pink
+    #FE86A4 - intensive pink */
+
+/* -- Removing the default margin from <body> element -- */
+body {
+    margin: 0; 
+}
+
+/* -- Setting the content width of 75% -- */
+.box {
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* -- Setting a background color - only reason we have this div -- */
+.bg-header {
+    background-color: #78C0F9;
+    padding: 1rem;
+}
+
+/* -- Removing margin top from <h1> tag that belong to <header> -- */
+header h1 {
+    margin: 0 0 1rem 0;
+}
+
+/* -- Removing margin top from <h2> tags that belong to <main> -- */
+main h2 {
+    margin: 0 0 1rem 0;
+}
+
+/* -- Setting a background color - only reason we have this div -- */
+.bg-first {
+    background-color: #FFDDCE;
+    padding: 1rem;
+}
+
+/* -- Setting a background color - only reason we have this div -- */
+.bg-second {
+    background-color: #FFFFFF;
+    padding: 1rem;
+}
+
+/* -- Setting a background color - only reason we have this div -- */
+.bg-footer {
+    background-color: #FFDBE6;
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+/* -- PRACTICE FLOAT AND CLEAR -- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
