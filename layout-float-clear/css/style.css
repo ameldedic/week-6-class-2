@@ -57,8 +57,32 @@ main h2 {
 
 
 
-/* -- PRACTICE FLOAT AND CLEAR -- */
+/* -- 
+PRACTICE FLOAT AND CLEAR 
+References for pseudo elements and classes:
+https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-elements
+https://developer.mozilla.org/en/docs/Web/CSS/Pseudo-classes -- */
 
+.bg-first figure {
+    float: left;
+    margin: 0 1rem 1rem 0;
+}
+
+.bg-second figure {
+    float: right;
+    margin: 0 0 1rem 1rem;
+}
+
+
+   
+/* -- Make this CSS rule reusable.
+      You can add this class to any element 
+      inside your webpage that needs clearing float. -- */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: left;
+} 
 
 
 
